@@ -18,7 +18,7 @@ $ boot2docker ip
 # To terminate the active container (In this case the Apache web server). On another terminal:-
 $ docker ps
 CONTAINER ID        IMAGE                     COMMAND                CREATED             STATUS              PORTS                NAMES
-7fe637df6bca        jolks/amazon-ecs-sample    apache2ctl -k resta   4 seconds ago       Up 3 seconds        0.0.0.0:80->80/tcp   lonely_hypatia
+7fe637df6bca        jolks/amazon-ecs-sample   "apache2ctl -k resta   4 seconds ago       Up 3 seconds        0.0.0.0:80->80/tcp   lonely_hypatia
 
 $ docker kill 7fe637df6bca
 
