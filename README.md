@@ -12,9 +12,9 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 # On another terminal:-
 $ boot2docker ip
 192.168.59.103
-
-# Open browser and go to http://192.168.59.103 to see the demo page.
-
+```
+Open browser and go to http://192.168.59.103 to see the demo page.
+```
 # To terminate the active container (In this case the Apache web server). On another terminal:-
 $ docker ps
 CONTAINER ID        IMAGE                     COMMAND                CREATED             STATUS              PORTS                NAMES
