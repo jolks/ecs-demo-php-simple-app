@@ -7,7 +7,7 @@ $ docker build -t jolks/amazon-ecs-sample .
 
 # The warning message AH00558 can be ignored
 $ docker run -p 80:80 jolks/amazon-ecs-sample
-AH00558: apache2: Could not reliably determine the server's fully qualified domain name...
+AH00558: apache2: Could not reliably determine the server\'s fully qualified domain name...
 
 # On another terminal:-
 $ boot2docker ip
