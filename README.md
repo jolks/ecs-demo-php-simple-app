@@ -38,3 +38,4 @@ $ docker kill 7fe637df6bca
 ## References
 * http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html
 * https://docs.docker.com/articles/dockerfile_best-practices/
+* http://stackoverflow.com/questions/23735149/docker-image-vs-container
