@@ -1,6 +1,6 @@
 # Amazon ECS PHP Simple Demo App for Ubuntu 14.04 LTS (Trusty)
 
-Assuming you have install Docker in your machine.
+Assuming you have install Docker in your machine:-
 
 ```
 $ docker build -t jolks/amazon-ecs-sample .
@@ -14,8 +14,9 @@ $ boot2docker ip
 192.168.59.103
 ```
 Open browser and go to http://192.168.59.103 to see the demo page.
+
+To terminate the active container (In this case the Apache web server):-
 ```
-# To terminate the active container (In this case the Apache web server). On another terminal:-
 $ docker ps
 CONTAINER ID        IMAGE                     COMMAND                CREATED             STATUS              PORTS                NAMES
 7fe637df6bca        jolks/amazon-ecs-sample   "apache2ctl -k resta   4 seconds ago       Up 3 seconds        0.0.0.0:80->80/tcp   lonely_hypatia
