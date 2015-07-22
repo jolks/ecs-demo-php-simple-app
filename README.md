@@ -3,9 +3,13 @@
 Assuming you have install Docker in your machine:-
 
 ```
+# Create a Docker Image from Dockerfile.
 $ docker build -t jolks/amazon-ecs-sample .
 
-# The warning message AH00558 can be ignored
+
+# Run the Docker Image. A running Docker Image is Docker Container.
+# A container is an instance of image.
+# The warning message AH00558 can be ignored.
 $ docker run -p 80:80 jolks/amazon-ecs-sample
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name...
 
