@@ -3,7 +3,7 @@
 Assuming you have install Docker in your machine:-
 
 ```
-# Create a Docker Image from Dockerfile.
+# Create a Docker Image from Dockerfile locally
 $ docker build -t jolks/amazon-ecs-sample .
 
 # To check the image is successfully created
